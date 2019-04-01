@@ -71,7 +71,6 @@
 }
 html { background-image: url("backgroundImage.png"); }
 body{
-	width:90%;
 	margin: 0 auto;
 	background-color: #1A1915;
 	font-family: Franklin Gothic Demi, Verdana, Georgia;
