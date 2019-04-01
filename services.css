@@ -1,0 +1,92 @@
+@media screen and (max-width: 768px)
+{
+	#content h1{font-size: 18px;}
+	#content h2{font-size: 14px;}
+	#content p, li{font-size: 12px;}
+	.column{height: 230px;}
+}
+@media screen and (min-width: 769px)
+{
+	#content h1{font-size: 20px;}
+	#content h2{font-size: 16px;}
+	#content p, li{font-size: 12px;}
+	.column{height: 280px;}
+}
+@media screen and (min-width: 992px)
+{
+	#content h1{font-size: 28px;}
+	#content h2{font-size: 24px;}
+	#content p, li{font-size: 19px;}
+	.column{height: 300px;}
+}
+@media screen and (min-width: 1200px)
+{
+	#content h1{font-size: 28px;}
+	#content h2{font-size: 24px;}
+	#content p, li{font-size: 20px;}
+	.column{height: 300px;}
+}
+#content{
+	width: 100%;
+	height: auto;
+	background-color: white;
+	color: black;
+	
+}
+#top{
+	text-align:center;
+}
+#top h1{
+	display:inline-block;
+}
+#top h1, p{
+	padding: 5px 5px;
+}
+.row{
+	border-top: 5px double #333;
+	border-bottom: 5px double #333;
+	background-color: #A8A8A8;
+}
+.column{
+	width: 33%;
+	float: left;
+	display:inline-block;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.column h2{
+	text-align: center;
+	border: 5px solid #333;
+	border-style: dotted;
+	border-radius: 5px;
+	display:inline-block;
+	padding: 10px;
+}
+.column li{
+	text-align: left;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+#partners{
+	text-align:center;
+	background-color: #a8fbff;
+	margin-bottom: -20px;
+	padding-bottom: 20px;
+}
+#partners h2{
+	display:inline-block;
+}
+#bottom{
+	text-align: center;
+	padding: 10px;
+	background-color: #565656;
+	color: white;
+}
