@@ -1,0 +1,143 @@
+@media screen and (max-width: 768px)
+{
+	#contentLeftSide h3{font-size: 16px;}
+	.vertical-menu a{font-size: 14px;}
+	#contentRightSide #productTitle h1{font-size: 20px;}
+	#contentRightSide p{font-size: 14px;}
+	td{font-size: 14px; padding: 4px;}
+	td a{padding: 5px 10px;}
+}
+@media screen and (min-width: 769px)
+{
+	#contentLeftSide h3{font-size: 18px;}
+	.vertical-menu a{font-size: 16px;}
+	#contentRightSide #productTitle h1{font-size: 24px;}
+	#contentRightSide p{font-size: 16px;}
+	td{font-size: 16px;}
+}
+@media screen and (min-width: 992px)
+{
+	#contentLeftSide h3{font-size: 20px;}
+	.vertical-menu a{font-size: 18px;}
+	#contentRightSide #productTitle h1{font-size: 28px;}
+	#contentRightSide p{font-size: 18px;}
+	td{font-size: 18px;}
+}
+@media screen and (min-width: 1200px)
+{
+	#contentLeftSide h3{font-size: 20px;}
+	.vertical-menu a{font-size: 18px;}
+	#contentRightSide #productTitle h1{font-size: 28px;}
+	#contentRightSide p{font-size: 22px;}
+	td{font-size: 22px;}
+}
+#content{
+	width: 100%;
+	height: auto;
+	background-color: #eee;
+	color: black;
+}
+#contentLeftSide{
+	float: left;
+  	width: 25%;
+  	height: 100%;
+  	
+	background-color: #eee;
+	color: black;
+	
+	
+}
+#contentLeftSide h3{
+	text-align: center;
+	display: block;
+	padding-bottom: 16px;
+	border-bottom: 2px solid black;
+	margin-bottom: 0px;
+	
+}
+#contentRightSide{
+	float: left;
+  	width: 75%;
+  	height: 100%;
+  	background-color: white;
+	color: black; 
+  	padding-bottom: 10px;
+  	
+}
+#productTitle{
+	position:relative;
+}
+#contentRightSide #productTitle h1{
+	
+	
+	color: #f2f2f2;
+  font-family: Britannic Bold, Impact, Haettenschweiler;
+  padding: 8px 12px;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  right:25%;
+  background-color: rgba(0,0,0, 0.5);
+	
+}
+#contentRightSide h1{
+	text-align: center; 
+	color:white;
+	}
+#contentRightSide img{
+	width: 100%;
+	max-width: 900px;
+}
+#contentRightSide p{padding: 10px}
+td{
+	text-align:center;
+  	padding: 12px; 
+}
+td a{
+	color: white;
+	background-color: #1A1915; 
+	text-decoration: none;
+	padding: 10px 20px;
+	display: inline-block;
+	width: 50%;
+	border: 5px solid #333;
+	border-style: ridge;
+	border-radius: 5px;
+}
+td a:hover{
+	color: #1A1915; 
+	background-color: white;
+	text-decoration: underline;
+}
+#content:after {
+	content:"";
+	display: table;
+	clear: both;
+}
+/*
+@media screen and (max-width: 600px){
+	#contentLeftSide #contentRightSide{
+	width: 100%;
+	}
+}
+*/
+.vertical-menu {
+  width: 100%; 
+}
+
+.vertical-menu a{
+  background-color: #eee;
+  color: black; 
+  display: block; /* Make the links appear below each other */
+  padding: 12px; 
+  text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; 
+}
+
+.vertical-menu a.active {
+  background-color: #1A1915; 
+  color: white;
+}
