@@ -2,12 +2,16 @@
 @media screen and (max-width: 768px)
 {
 	.slideTitle {font-size: 20px;}
-	#contentLeftSide h1{font-size: 14px;}
-	#contentLeftSide p{font-size: 12px;}
+	#contentLeftSide{width:100%;}
+	#contentRightSide{width:100%;}
+	#contentLeftSide h1{font-size: 16px;}
+	#contentLeftSide p{font-size: 14px;}
 }
 @media screen and (min-width: 769px)
 {
 	.slideTitle {font-size: 23px;}
+	#contentLeftSide{float: left; width:50%;}
+	#contentRightSide{float: left; width:50%;}
 	#contentLeftSide h1{font-size: 16px;}
 	#contentLeftSide p{font-size: 14px;}
 }
@@ -133,15 +137,12 @@
 	
 }
 #contentLeftSide{
-	float: left;
-  	width: 50%;
   	padding: 10px;
 	background-color: white;
 	color: black;
 }
 #contentRightSide{
-	float: left;
-  	width: 50%;
+
   	padding: 10px;
 	background-color: white;
 	color: black; 
