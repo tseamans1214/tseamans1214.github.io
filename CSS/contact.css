@@ -35,7 +35,7 @@
 	color: black; 
 }
 .mapouter{position:relative;text-align:right;height:100%;width:100%;}
-.gmap_canvas {overflow:hidden;background:none!important;height:550px;width:100%;max-width:600px;max-height:550px}
+.gmap_canvas {overflow:hidden;background:none!important;height:550px;width:100%;max-width:769px;max-height:550px}
 #content:after {
 	content:"";
 	display: table;

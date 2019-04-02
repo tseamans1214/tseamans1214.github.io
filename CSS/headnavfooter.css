@@ -17,7 +17,8 @@
 	#righthead #rightheadInfo{display:inline:block; float:left;}
 	#righthead #icons{display:inline-block; float:right;padding-top:12px; padding-left: 10px;}
 	#righthead icon{display:inline-block;}
-
+	.navbar {display:none;}
+	#mobileNavBtn {display:block;}
 	
 	
 }
@@ -35,6 +36,7 @@
 	#lefthead {max-width:66.66%;float: left;}
 	#righthead {max-width:33.33%;float: left;}
 	#righthead img{display:inline-block;}
+	#mobileNavBtn {display:none;}
 }
 @media screen and (min-width: 992px)
 {
@@ -51,6 +53,7 @@
 	#lefthead {max-width:66.66%;float: left;}
 	#righthead {max-width:33.33%;float: left;}
 	#righthead img{display:inline-block;}
+	#mobileNavBtn {diplay:none;}
 	
 }
 @media screen and (min-width: 1200px)
@@ -67,6 +70,7 @@
 	#lefthead {max-width:66.66%;float: left;}
 	#righthead {max-width:33.33%;float: left;}
 	#righthead img{display:inline-block;}
+	#mobileNavBtn {diplay:none;}
 	
 }
 /*html { background-image: url("backgroundImage.png"); }*/
@@ -195,6 +199,105 @@ body{
 .subnav:hover .subnav-content {
   display: block;
 }
+
+/* Mobile Nav */
+#mobileNavBtn {
+	width: 100%;
+	background-color: #333;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.overlay {
+  height: 100%;
+  width: 0%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+.mobile-subnav {
+  overflow: hidden;
+}
+
+/* Subnav button */
+.mobile-subnav .mobile-subnavbtn {
+  border: none;
+  outline: none;
+  font-family: inherit;
+  text-align: center;
+  
+  padding: 8px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  background-color: rgba(0,0,0, 0.9);
+  
+}
+
+.mobile-subnav-content {
+  display: none;
+  width: auto;
+}
+
+/* Style the subnav links 18px*/
+.mobile-subnav-content a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Add a grey background color on hover */
+.mobile-subnav-content a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.mobile-subnav:hover .mobile-subnav-content {
+  display: block;
+}
+/* end mobile nav */
 #footer{
 	background-color: #333;
 	color: white;
