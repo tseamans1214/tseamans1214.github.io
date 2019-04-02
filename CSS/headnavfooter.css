@@ -1,6 +1,6 @@
 @media screen and (max-width: 768px)
 {
-	#righthead h3{font-size: 10px;}
+	#righthead h3{font-size: 12px;}
 	.navbar a, .subnav .subnavbtn{font-size: 14.63px;}
 	.subnav-content a {font-size: 14px;}
 	#footer h1{font-size: 18px;}
@@ -206,6 +206,7 @@ body{
 	background-color: #333;
 	padding-top: 5px;
 	padding-bottom: 5px;
+	color:white;
 }
 .overlay {
   height: 100%;
@@ -230,15 +231,17 @@ body{
 
 .overlay a {
   padding: 8px;
+  margin-bottom: 10px;
   text-decoration: none;
   font-size: 20px;
-  color: #818181;
+  color: white;
   display: block;
   transition: 0.3s;
 }
 
 .overlay a:hover, .overlay a:focus {
-  color: #f1f1f1;
+  color: black;
+  background-color: white;
 }
 
 .overlay .closebtn {
@@ -267,11 +270,11 @@ body{
   outline: none;
   font-family: inherit;
   text-align: center;
-  
+  margin-bottom: 10px;
   padding: 8px;
   text-decoration: none;
   font-size: 20px;
-  color: #818181;
+  color: white;
   background-color: rgba(0,0,0, 0.9);
   
 }
@@ -284,18 +287,20 @@ body{
 /* Style the subnav links 18px*/
 .mobile-subnav-content a {
   text-decoration: none;
-  color: white;
+  color: black;
+
 }
 
 /* Add a grey background color on hover */
 .mobile-subnav-content a:hover {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
 }
 
 /* When you move the mouse over the subnav container, open the subnav content */
 .mobile-subnav:hover .mobile-subnav-content {
   display: block;
+  background-color:white;
 }
 /* end mobile nav */
 #footer{
