@@ -2,11 +2,13 @@
 {
 	#content h1{font-size: 18px;}
 	#content h2{font-size: 14px;}
+	.column {width: 50%;}
 }
 @media screen and (min-width: 769px)
 {
 	#content h1{font-size: 20px;}
 	#content h2{font-size: 16px;}
+	.column {width: 25%;}
 }
 @media screen and (min-width: 992px)
 {
@@ -49,7 +51,7 @@ body {
 
 .column {
   float: left;
-  width: 25%;
+  
 }
 
 /* The Modal (background) */

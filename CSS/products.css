@@ -2,7 +2,7 @@
 {
 	#contentLeftSide h3{font-size: 16px;}
 	.vertical-menu a{font-size: 14px;}
-	#contentRightSide #productTitle h1{font-size: 20px;}
+	#contentRightSide #productTitle h1{font-size: 18px;}
 	#contentRightSide p{font-size: 14px;}
 	td{font-size: 14px; padding: 4px;}
 	td a{padding: 5px 10px;}
@@ -11,7 +11,7 @@
 {
 	#contentLeftSide h3{font-size: 18px;}
 	.vertical-menu a{font-size: 16px;}
-	#contentRightSide #productTitle h1{font-size: 24px;}
+	#contentRightSide #productTitle h1{font-size: 20px;}
 	#contentRightSide p{font-size: 16px;}
 	td{font-size: 16px;}
 }
@@ -19,7 +19,7 @@
 {
 	#contentLeftSide h3{font-size: 20px;}
 	.vertical-menu a{font-size: 18px;}
-	#contentRightSide #productTitle h1{font-size: 28px;}
+	#contentRightSide #productTitle h1{font-size: 24px;}
 	#contentRightSide p{font-size: 18px;}
 	td{font-size: 18px;}
 }
@@ -75,8 +75,8 @@
   padding: 8px 12px;
   position: absolute;
   top: 10%;
-  left: 25%;
-  right:25%;
+  left: 30%;
+  right:30%;
   background-color: rgba(0,0,0, 0.5);
 	
 }
@@ -97,7 +97,7 @@ td a{
 	color: white;
 	background-color: #1A1915; 
 	text-decoration: none;
-	padding: 10px 20px;
+	padding: 10px 10px;
 	display: inline-block;
 	width: 50%;
 	border: 5px solid #333;
