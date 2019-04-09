@@ -185,13 +185,6 @@
 	padding: 12px;
 	border-radius: 6px;
 }
-.form {
-	display: inline-block;
-	padding-top: 12px;
-	padding-bottom: 12px;
-
-
-}
 input, textarea{
 	width: 100%;
 	margin-top: 12px;
