@@ -87,12 +87,11 @@
   <a href="contact.html">Contact Us</a>
 </div>
 </div><!-- mobileNav -->
-<div id="mobileNavBtn">
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+<div id="mobileNavBtn" onclick="openNav()">
+<span style="font-size:30px;" >&#9776; </span>
 </div><!-- mobileNavBtn -->
 <script src="JS/mobileNavbar.js"></script>
 <!-- Mobile support navbar end-->
-
 </div><!--  header -->
 
 <!-- Slideshow container -->
@@ -141,8 +140,36 @@
 </div> <!-- contentLeftSide -->
 <div id="contentRightSide">
 <img src="BeforeAndAfter/beforeAfter1edited600.jpg">
-</div>
+</div> <!-- contentRightSide -->
 </div> <!--  content -->
+
+<div id="contactSection">
+
+
+<div class="contactForm">
+<div class="contactTitle">
+<h1>Message Us!</h1>
+<h2>Send us any questions, concerns, project ideas, you may have! </h2>
+</div> <!-- contactTitle -->
+
+	<form id="form1" method="post" action="PHP/contactForm.php">
+	<label for="name">Name</label>
+	<br>
+	<input name="name" type="text" class="form-control" placeholder="Your Name" required>
+	<br>
+	<label for="email">Email</label>
+	<br>
+	<input name="email" type="email" class="form-control" placeholder="Your Email" required>
+	<br>
+	<label for="message">Message</label>
+	<br>
+	<textarea name="message" class="form-control" placeholder="Message" required></textarea>
+	<br>
+	<input type="submit" class="form-control submit" value="SEND MESSAGE">
+	</form>
+</div><!-- contactForm -->
+</div><!-- contactSection -->
+
 <div id="footer">
 <h1>FLOORS 'n MORE, inc</h1>
 <h2>Address : 9855 W. Bell Rd. Sun City, AZ 85351 </h2>

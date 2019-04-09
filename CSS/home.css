@@ -6,6 +6,7 @@
 	#contentRightSide{width:100%;}
 	#contentLeftSide h1{font-size: 16px;}
 	#contentLeftSide p{font-size: 14px;}
+	.contactForm{width:90%;}
 }
 @media screen and (min-width: 769px)
 {
@@ -14,12 +15,14 @@
 	#contentRightSide{float: left; width:50%;}
 	#contentLeftSide h1{font-size: 16px;}
 	#contentLeftSide p{font-size: 14px;}
+	.contactForm{width:90%;}
 }
 @media screen and (min-width: 992px)
 {
 	.slideTitle {font-size: 30px;}
 	#contentLeftSide h1{font-size: 20px;}
 	#contentLeftSide p{font-size: 18px;}
+	.contactForm{width:75%;}
 }
 @media screen and (min-width: 1200px)
 {
@@ -164,4 +167,49 @@
 	#contentLeftSide #contentRightSide{
 	width: 100%;
 	}
+}
+#contactSection{
+	margin-top: 15px;
+	width: 100%;
+	height: auto;
+	background-color: white;
+	color: black;
+	text-align: center;
+	background-color: #a3a3a3;
+}
+.contactForm{
+	background-color: white;
+	display: inline-block;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	padding: 12px;
+	border-radius: 6px;
+}
+.form {
+	display: inline-block;
+	padding-top: 12px;
+	padding-bottom: 12px;
+
+
+}
+input, textarea{
+	width: 100%;
+	margin-top: 12px;
+	padding: 12px 20px;
+	border-radius: 5px;
+}
+textarea{
+	height: 200px;
+}
+label{
+	width: 100%;
+	margin-top: 12px;
+	text-align: left;
+	display: inline-block;
+	border-radius: 5px;
+	
+}
+input[type=submit]{
+	background-color: #f77617;
+	color: white;
 }
