@@ -107,6 +107,9 @@ body{
 	/*display: inline-block;*/
 	/*margin:auto;*/
 }
+.logoTop{
+	margin-right: 5px;
+}
 .icon{
 	max-width: 32px;
 	height: auto;
