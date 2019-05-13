@@ -17,14 +17,14 @@
 	#content h1{font-size: 28px;}
 	#content h2{font-size: 24px;}
 	#content p, li{font-size: 19px;}
-	.column{height: 380px;}
+	.column{height: 390px;}
 }
 @media screen and (min-width: 1200px)
 {
 	#content h1{font-size: 28px;}
 	#content h2{font-size: 24px;}
 	#content p, li{font-size: 20px;}
-	.column{height: 380px;}
+	.column{height: 390px;}
 }
 #content{
 	width: 100%;
